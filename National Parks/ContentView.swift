@@ -8,9 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
+    @State var names = [Data]()
+    
+    
+    
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+    
+        List(names, id: \.id) { (i) in
+            
+            Text(i.fullName)
+            
+        }.onAppear(){
+            Api().fetchData { (names) in
+                
+                self.names = names
+               
+    }
+        }
     }
 }
 

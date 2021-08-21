@@ -11,8 +11,7 @@ struct Data: Codable, Identifiable {
    let id = UUID()
    let fullName: String
     let states: String
-
-    
+    let name: String
     
     
 }

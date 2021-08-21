@@ -12,6 +12,7 @@
 		AD8DCD4126D00F8700A72985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8DCD4026D00F8700A72985 /* Assets.xcassets */; };
 		AD8DCD4426D00F8700A72985 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8DCD4326D00F8700A72985 /* Preview Assets.xcassets */; };
 		AD8DCD4C26D011F100A72985 /* Parks_Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8DCD4B26D011F100A72985 /* Parks_Info.swift */; };
+		AD8DCD4E26D03BD500A72985 /* ParkName.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8DCD4D26D03BD500A72985 /* ParkName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AD8DCD4326D00F8700A72985 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD8DCD4526D00F8700A72985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD8DCD4B26D011F100A72985 /* Parks_Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parks_Info.swift; sourceTree = "<group>"; };
+		AD8DCD4D26D03BD500A72985 /* ParkName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				AD8DCD3C26D00F8600A72985 /* National_ParksApp.swift */,
 				AD8DCD3E26D00F8600A72985 /* ContentView.swift */,
 				AD8DCD4B26D011F100A72985 /* Parks_Info.swift */,
+				AD8DCD4D26D03BD500A72985 /* ParkName.swift */,
 				AD8DCD4026D00F8700A72985 /* Assets.xcassets */,
 				AD8DCD4526D00F8700A72985 /* Info.plist */,
 				AD8DCD4226D00F8700A72985 /* Preview Content */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD8DCD4E26D03BD500A72985 /* ParkName.swift in Sources */,
 				AD8DCD3F26D00F8600A72985 /* ContentView.swift in Sources */,
 				AD8DCD3D26D00F8600A72985 /* National_ParksApp.swift in Sources */,
 				AD8DCD4C26D011F100A72985 /* Parks_Info.swift in Sources */,

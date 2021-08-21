@@ -27,17 +27,13 @@ struct ParkName: View {
             
             HStack{
             Text(picture)
-                .multilineTextAlignment(.center)
+                .multilineTextAlignment(.leading)
                 .lineLimit(nil)
                 .font(.largeTitle)
                 .foregroundColor(Color.white)
                 .frame(width: 300, height: 300, alignment: .leading)
                 .offset(x: -30, y: 80)
                 .padding()
-                
-                
-                
-                
             }
         }
     }

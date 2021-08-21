@@ -8,13 +8,17 @@
 import Foundation
 
 struct Data: Codable, Identifiable {
-   let id = UUID()
-   let fullName: String
-   let states: String
-   let name: String
-    
-    
+    let id = UUID()
+    let fullName: String
+    let states: String
+    let name: String
+    let latitude: String
+    let longitude: String
+    let description: String
 }
+
+
+
 
 struct Parks: Codable, Identifiable {
     let id = UUID()
@@ -31,12 +35,12 @@ class Api: ObservableObject {
         guard let url = URL(string: "https://developer.nps.gov/api/v1/parks?stateCode=TX&limit=999&api_key=XbAdGumIqKBvdKAHAqlWfQcNfiATmd6DMkQPde85") else {
             return
         }
-        URLSession.shared.dataTask(with: url) { data, response, error in
+        URLSession.shared.dataTask(with: url) {[weak self] data, response, error in
             let jsonResult = try! JSONDecoder().decode(Parks.self, from: data!)
            
           
             
-            print(jsonResult)
+           
             DispatchQueue.main.async {
                 
              

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD5E512B26D18907002B4189 /* ParkInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5E512A26D18907002B4189 /* ParkInfoView.swift */; };
 		AD8DCD3D26D00F8600A72985 /* National_ParksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8DCD3C26D00F8600A72985 /* National_ParksApp.swift */; };
 		AD8DCD3F26D00F8600A72985 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8DCD3E26D00F8600A72985 /* ContentView.swift */; };
 		AD8DCD4126D00F8700A72985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8DCD4026D00F8700A72985 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD5E512A26D18907002B4189 /* ParkInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkInfoView.swift; sourceTree = "<group>"; };
 		AD8DCD3926D00F8600A72985 /* National Parks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "National Parks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8DCD3C26D00F8600A72985 /* National_ParksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = National_ParksApp.swift; sourceTree = "<group>"; };
 		AD8DCD3E26D00F8600A72985 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				AD8DCD4026D00F8700A72985 /* Assets.xcassets */,
 				AD8DCD4526D00F8700A72985 /* Info.plist */,
 				AD8DCD4226D00F8700A72985 /* Preview Content */,
+				AD5E512A26D18907002B4189 /* ParkInfoView.swift */,
 			);
 			path = "National Parks";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				AD8DCD4E26D03BD500A72985 /* ParkName.swift in Sources */,
 				AD8DCD3F26D00F8600A72985 /* ContentView.swift in Sources */,
 				AD8DCD3D26D00F8600A72985 /* National_ParksApp.swift in Sources */,
+				AD5E512B26D18907002B4189 /* ParkInfoView.swift in Sources */,
 				AD8DCD4C26D011F100A72985 /* Parks_Info.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
